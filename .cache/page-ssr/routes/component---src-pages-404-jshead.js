@@ -1496,7 +1496,6 @@ const prefetch = function (url, options) {
     }).catch(() => {}); // 404s are logged to the console anyway
   });
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (prefetch);
 
 /***/ }),

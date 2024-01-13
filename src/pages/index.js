@@ -2,31 +2,19 @@
 import * as React from "react"
 
 import Layout from "../components/layout-main"
+import { StaticImage } from 'gatsby-plugin-image'
 
 const pageTitle = "Index Page Title"
-
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-}
-
-
-
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/getting-started/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-]
 
 // Step 2: Define component
 const IndexPage = () => {
   return (
     <Layout pageTitle={pageTitle}>
       <div>main</div>
+      <StaticImage
+        alt="test"
+        src="../images/icon.png"
+      />
     </Layout>
   )
 }
